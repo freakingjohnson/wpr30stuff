@@ -1,0 +1,78 @@
+## ARRAY METHODS
+
+* .map()
+syntax:
+```
+let newArray = array.map(function(element, index, array) {
+  // whatever you return here will be in your new array
+})
+```
+
+* .filter()
+syntax:
+```
+let newArray = array.filter(function(element, index, array) {
+  // if what is returned is truthy, the element will be included in the new array. If what is returned is falsy, it will NOT be included in the array
+})
+```
+
+* .reduce()
+syntax:
+```
+let totalValue = let newArray = array.reduce(function(total, element, index, array) {
+  // whatever is returned here replaces the value of total
+  // When iteration is complete, total is returned
+})
+```
+
+## OBJECTS
+
+* for in loops
+syntax: `for(variable in obj) {...}`
+for(variable in obj) {
+  variable is the property name
+  to access the value, use bracket notation obj[variable]
+}
+will iterate over all the object properties
+
+* destructuring
+syntax: `let {a, b} = {a: 1, b: 2}`
+the variables in the curly braces will take the value of the matching properties from the object
+
+* Object.assign()
+syntax: `Object.assign(target, ... sources)`
+the target is returned with the added properties from the sources
+helps with keeping data immutable and also problems with memory reference
+
+* delete
+syntax: `delete obj.propertyname`
+will delete entire key value pair
+
+## ARROW FUNCTION
+
+syntax: `let fn = () => {...}`
+ => replaces the function keyword
+
+ 1 parameter - you don't need parentheses
+ 1 line of code - you don't need curly braces or the return key word
+
+Don't use for methods. But awesome for higher order functions (ex: .map(), .filter(), etc...) 
+
+## CLASSES
+
+syntax: 
+```
+class MyNewClass {
+  constructor(parameter) {
+    this.propertyName = parameter
+  }
+  method() {
+    return this.propertyName += 10
+    // or some cool thing...
+  }
+}
+```
+like blue prints to create new objects
+the constructor method is what creates the object.
+use `this` and dot notation to create key value pairs
+methods go outside of the constructor method.

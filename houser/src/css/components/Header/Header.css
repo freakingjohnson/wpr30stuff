@@ -1,0 +1,55 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  .App {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  h2 {
+    font-size: 26px;
+  }
+  .Header {
+    background-color: #519872;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: auto;
+  }
+  .Header-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+  }
+  .left-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .houser1 {
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .houser2 {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 28px;
+  }
+  .logout {
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+  }
+  a {
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+    text-decoration-line: none;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+  }

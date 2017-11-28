@@ -1,0 +1,33 @@
+.main_header {
+    width: 100%;
+    height: 80px;
+    background: grey;
+}
+
+.HAM {
+    width: 45px;
+    height: 45px;
+    background: black;
+    display: none;
+}
+
+ul li{
+    display: inline-block;
+    font-size: 32px;
+}
+
+@media(max-width:750px){
+    .HAM {
+        display: block;
+    }
+
+    ul li{
+        display: none;
+    }
+}
+
+.top_section {
+    width: 300px;
+    height: 300px;
+    background: lightcoral;
+}
